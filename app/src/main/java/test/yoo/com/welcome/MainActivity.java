@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         tv_splash_version.setText("版本号：" + getVersion());
 
         //背景透明度变化3秒内从0.3变到1.0
-        AlphaAnimation aa = new AlphaAnimation(0.3f, 1.0f);
+        AlphaAnimation aa = new AlphaAnimation(0.4f, 1.0f);
         aa.setDuration(3000);
         r1_splash.startAnimation(aa);
 
