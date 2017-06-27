@@ -5,6 +5,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.animation.AlphaAnimation;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         AlphaAnimation aa = new AlphaAnimation(0.4f, 1.0f);
         aa.setDuration(3000);
         r1_splash.startAnimation(aa);
-
+        Log.i("Yoo", "Yoo");
         //创建Timer对象
         Timer timer = new Timer();
         //创建TimerTask对象
